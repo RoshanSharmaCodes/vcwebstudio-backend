@@ -7,7 +7,7 @@ const port = 3000
 const allowedOrigins = [
     "http://localhost:5173",
     "https://www.vcwebstudio.com",
-    "https://vc-web-studio.vercel.app/",
+    "https://vc-web-studio.vercel.app",
   ];
 
 app.use(
