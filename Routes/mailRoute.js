@@ -26,7 +26,7 @@ mailRouter.post("/sendmail", async (req, res) => {
 }
 
     const mailOptions = {
-        from: 'VCWebStudio Team support@vcwebstudio.tech',
+        from: 'VCWebStudio Team roshan.rks2812000@gmail.com',
         to: ["sushrut@vcmedialabs.com","roshan.rks2812000@gmail.com", requestBody.email],
         text: requestBody.message,
     };
