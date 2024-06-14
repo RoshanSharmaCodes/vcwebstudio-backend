@@ -15,8 +15,8 @@ mailRouter.post("/sendmail", async (req, res) => {
         port: 465,
         secure: true,
         auth: {
-            user: 'roshan.rks2812000@gmail.com',
-            pass: '8090247890',
+            user: '',
+            pass: '',
         },
     });
 
